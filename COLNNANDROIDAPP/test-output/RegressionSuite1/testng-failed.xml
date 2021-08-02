@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite1]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="FirstDemoSuite(failed)">
+    <classes>
+      <class name="tests.AddLibraryTest">
+        <methods>
+          <include name="restartApp"/>
+          <include name="screenshotOnFailure"/>
+          <include name="setup"/>
+          <include name="userCanAddLibrary" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.AddLibraryTest -->
+    </classes>
+  </test> <!-- FirstDemoSuite(failed) -->
+</suite> <!-- Failed suite [RegressionSuite1] -->

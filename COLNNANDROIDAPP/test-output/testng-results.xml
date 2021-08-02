@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite1" duration-ms="39596" started-at="2021-07-27T16:12:14Z" finished-at="2021-07-27T16:12:54Z">
+    <groups>
+    </groups>
+    <test name="FirstDemoSuite" duration-ms="39596" started-at="2021-07-27T16:12:14Z" finished-at="2021-07-27T16:12:54Z">
+      <class name="tests.AddLibraryTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AddLibraryTest@588ab592]" name="setup" is-config="true" duration-ms="22909" started-at="2021-07-27T16:11:51Z" finished-at="2021-07-27T16:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="userCanAddLibrary(java.lang.String, java.lang.String)[pri:1, instance:tests.AddLibraryTest@588ab592]" name="userCanAddLibrary" duration-ms="34544" started-at="2021-07-27T16:12:16Z" description="Add New Library" data-provider="userDataFromExcel" finished-at="2021-07-27T16:12:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddLibrary -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddLibraryTest@588ab592]" name="screenshotOnFailure" is-config="true" duration-ms="2" started-at="2021-07-27T16:12:51Z" finished-at="2021-07-27T16:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanAddLibrary status=SUCCESS method=AddLibraryTest.userCanAddLibrary(java.lang.String, java.lang.String)[pri:1, instance:tests.AddLibraryTest@588ab592] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="restartApp()[pri:0, instance:tests.AddLibraryTest@588ab592]" name="restartApp" is-config="true" duration-ms="3119" started-at="2021-07-27T16:12:51Z" finished-at="2021-07-27T16:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restartApp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.AddLibraryTest@588ab592]" name="teardown" is-config="true" duration-ms="1341" started-at="2021-07-27T16:12:54Z" finished-at="2021-07-27T16:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AddLibraryTest -->
+    </test> <!-- FirstDemoSuite -->
+  </suite> <!-- RegressionSuite1 -->
+</testng-results>
